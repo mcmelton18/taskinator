@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var buttonEl = document.querySelector("#save-task"); 
 var tasksToDoEl = document.querySelector("#tasks-to-do"); 
 
@@ -9,3 +10,7 @@ var createTaskHandler = function() {
   }; 
 
 buttonEl.addEventListener("click", createTaskHandler);
+=======
+var buttonEl = document.querySelector("#save-task");
+var tasksToDoEl = document.querySelector("#tasks-to-do")
+>>>>>>> feature/add-task
